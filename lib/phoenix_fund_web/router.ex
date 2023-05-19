@@ -18,7 +18,7 @@ defmodule PhoenixFundWeb.Router do
     pipe_through :browser
 
     # get "/", PageConroller, :index
-    get "/", PageLive, :index
+    live "/", AuctionLive
     live "/auction", AuctionLive
   end
 
