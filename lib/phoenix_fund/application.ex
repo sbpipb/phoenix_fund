@@ -5,6 +5,8 @@ defmodule PhoenixFund.Application do
 
   use Application
 
+
+
   @impl true
   def start(_type, _args) do
     children = [
@@ -13,7 +15,7 @@ defmodule PhoenixFund.Application do
       # Start the Telemetry supervisor
       PhoenixFundWeb.Telemetry,
       # Start the PubSub system
-      {Phoenix.PubSub, name: PhoenixFund.PubSub},
+      {Phoenix.PubSub, [name: PhoenixFund.PubSub, adapter: Phoenix.PubSub.PG2]},
       # Start the Endpoint (http/https)
       PhoenixFundWeb.Endpoint
       # Start a worker by calling: PhoenixFund.Worker.start_link(arg)

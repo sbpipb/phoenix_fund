@@ -17,8 +17,9 @@ defmodule PhoenixFundWeb.Router do
   scope "/", PhoenixFundWeb do
     pipe_through :browser
 
-    # get "/", PageController, :index
+    # get "/", PageConroller, :index
     get "/", PageLive, :index
+    live "/auction", AuctionLive
   end
 
   # Other scopes may use custom stacks.
