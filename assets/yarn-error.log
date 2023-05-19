@@ -1,0 +1,42 @@
+Arguments: 
+  /home/sbpipb/.asdf/installs/nodejs/18.16.0/bin/node /home/sbpipb/.asdf/installs/nodejs/lts/bin/yarn
+
+PATH: 
+  /home/sbpipb/.asdf/plugins/nodejs/shims:/home/sbpipb/.asdf/installs/nodejs/lts/bin:/home/sbpipb/.asdf/shims:/home/sbpipb/.asdf/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/sbpipb/projects/phoenix_fund/assets/package.json: Unexpected token } in JSON at position 232
+      at JSON.parse (<anonymous>)
+      at /home/sbpipb/.asdf/installs/nodejs/18.16.0/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/home/sbpipb/.asdf/installs/nodejs/18.16.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/sbpipb/.asdf/installs/nodejs/18.16.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "dependencies": {
+      "nprogress": "^0.2.0"
+    },
+    "devDependencies": {
+      "postcss": "^8.1.10",
+      "postcss-import": "^13.0.0",
+      "postcss-loader": "^4.1.0",
+      "postcss-nested": "^4.2.1",
+      "tailwindcss": "^2.0.1",
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

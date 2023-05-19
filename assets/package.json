@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "nprogress": "^0.2.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.1.10",
+    "postcss-import": "^13.0.0",
+    "postcss-loader": "^4.1.0",
+    "postcss-nested": "^4.2.1",
+    "tailwindcss": "^2.0.1"
+    }
+}
